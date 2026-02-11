@@ -9,8 +9,8 @@ max_val = max(numbers)
 min_val = min(numbers)
 
 # 4. 두 번째로 큰 값 찾기
-# 리스트를 복사한 뒤 정렬하여 뒤에서 두 번째 값을 선택합니다.
-# 원본 리스트를 유지하기 위해 sorted()를 사용하거나 copy를 활용합니다.
+# 리스트를 복사한 뒤 정렬하여 뒤에서 두 번째 값을 선택
+# 원본 리스트를 유지하기 위해 sorted()를 사용하거나 copy를 활용
 sorted_numbers = sorted(numbers, reverse=True) # 내림차순 정렬
 second_max = sorted_numbers[1] # 인덱스 0이 최댓값, 1이 두 번째 큰 값
 

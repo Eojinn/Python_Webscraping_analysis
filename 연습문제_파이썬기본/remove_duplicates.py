@@ -7,7 +7,7 @@ print(f"원본 리스트: {original_list}")
 unique_set = set(original_list)
 
 # 3. 리스트로 다시 변환 및 정렬
-# sorted() 함수는 데이터를 오름차순으로 정렬한 새로운 리스트를 반환
+# sorted() 함수는 데이터를 오름차순으로 정렬한 새로운 리스트를 반환 
 result_list = sorted(list(unique_set))
 
 # 4. 결과 출력
