@@ -14,7 +14,7 @@ df = pd.DataFrame(data)
 st.title(" Pandas DataFrame & Seaborn Plot")
 
 # DataFrame 출력
-st.subheader(" 데이터 테이블")
+st.subheader(" 데이터 테이블 ")
 st.dataframe(df)
 
 # 시각화
