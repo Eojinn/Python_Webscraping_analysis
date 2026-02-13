@@ -24,7 +24,7 @@ if actor_name:
 
     if not results.empty:
         st.success(f"🔎 {actor_name}이(가) 출연한 콘텐츠 {len(results)}개가 검색되었습니다.")
-        st.dataframe(results[['title', 'type', 'release_year', 'listed_in']]\
+        st.dataframe(results[['title','type', 'release_year', 'listed_in']]\
                      .sort_values(by='release_year', ascending=False)\
                      .reset_index(drop=True))
     else:
