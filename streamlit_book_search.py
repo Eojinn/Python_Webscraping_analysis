@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import json
 import pandas as pd
 
-# 페이지 설정
+# 페이지 설정 
 st.set_page_config(page_title="네이버 도서 검색", layout="wide")
 st.title("네이버 도서 검색 애플리케이션")
 
